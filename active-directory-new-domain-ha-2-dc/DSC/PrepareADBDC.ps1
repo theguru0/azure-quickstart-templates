@@ -43,7 +43,7 @@
         WindowsFeature ADDSTools
         {
             Ensure = "Present"
-            Name = "RSAT-ADDS-Tools"
+            Name = "RSAT-ADDS"
             DependsOn = "[WindowsFeature]ADDSInstall"
         }
 
